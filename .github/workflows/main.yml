@@ -15,6 +15,10 @@ on:
      - 'templates/*.json'
      - 'config/*.json'
      - 'locales/*.json'
+permissions:
+  pull-requests: write
+  contents: write
+  repository-projects: write
 jobs:
   build:
     # needs: nothing

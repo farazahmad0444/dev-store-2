@@ -5,16 +5,16 @@ on:
    branches:
      - main
    paths-ignore:
-     - 'templates/*.json'
-     - 'config/*.json'
-     - 'locales/*.json'
+     - 'templates/**'
+     - 'config/**'
+     - 'locales/**'
  pull_request:
    branches:
      - main
    paths-ignore:
-     - 'templates/*.json'
-     - 'config/*.json'
-     - 'locales/*.json'
+     - 'templates/**'
+     - 'config/**'
+     - 'locales/**'
 permissions:
   pull-requests: write
   contents: write

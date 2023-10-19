@@ -2,3 +2,7 @@
 	object = 40ea726a962cf572ba096216c4767f39d2beff76
 	subtree = sections
 	type = expand tree
+[map "78b4bb24-ba79-3ea7-98cd-ec833e7c33b8"]
+	object = 86d232ed74c52650140c2954f4b08f91f1ebd25c
+	path = sections
+	type = expand module

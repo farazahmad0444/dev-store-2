@@ -6,3 +6,7 @@
 	object = 24968a8662832336a568f28b0414424d833548ad
 	path = sections
 	type = expand module
+[map "1591b397-c9f7-36e9-bd75-8f7caecaa846"]
+	object = 79f29bc91967acb58b13dcc3ab348e80b1c18232
+	path = sections
+	type = expand module

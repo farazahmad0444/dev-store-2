@@ -1,8 +1,3 @@
-[map "eeeef539-fbba-3f4f-82ad-cc388d5172fc"]
-	object = 75864600b83623200081ae16ed46e7e63fc3aef8
-	path = sections
-	stage = pull-request
-	type = extract module
 [module "c78be264-3c8d-38f1-a336-215e85e488f4"]
 	conflict = request-pull
 	path = sections
@@ -11,3 +6,8 @@
 	ref = if refs/heads/main sync refs/heads/main
 	subtree = sections
 	url = agnostic://gh/706641559
+[map "b9a851a7-5a0a-35f3-8691-84ee5f866fe6"]
+	object = 75864600b83623200081ae16ed46e7e63fc3aef8
+	path = sections
+	stage = sync
+	type = extract module

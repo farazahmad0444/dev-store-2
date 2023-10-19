@@ -1,0 +1,34 @@
+name: Merge to store themes
+ 
+on:
+ push:
+   branches:
+     - main
+   paths-ignore:
+     - 'templates/*.json'
+     - 'config/*.json'
+     - 'locales/*.json'
+ pull_request:
+   branches:
+     - main
+   paths-ignore:
+     - 'templates/*.json'
+     - 'config/*.json'
+     - 'locales/*.json'
+jobs:
+  build:
+    # needs: nothing
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Pushes to all sites
+        run: |
+          git checkout main
+          git pull
+          git checkout -b store-1
+          git merge main
+          git push -f --set-upstream origin store-1
+          git checkout -b store-2
+          git merge main
+          git push -f --set-upstream origin store-2
+        

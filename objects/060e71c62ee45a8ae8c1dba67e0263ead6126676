@@ -6,7 +6,8 @@
 	ref = if refs/heads/main sync refs/heads/main
 	subtree = sections
 	url = agnostic://gh/706641559
-[map "436201f9-9b10-371f-903c-fbadaff8d28f"]
+[map "dc7f2f2f-1e18-3648-8b32-e97530a3ac8e"]
 	object = 22597d5d00c727cc856ea9f09fd157c1bfde00de
 	path = sections
+	stage = sync
 	type = extract module
